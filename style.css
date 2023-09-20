@@ -1,0 +1,257 @@
+body{
+    background-color: rgba(0, 0, 0, 0.74);
+    font-family: 'Ubuntu', sans-serif;
+}
+.box1{
+    margin-top: -10px;
+    margin-left: -9px;
+    margin-bottom: -12px;
+    width: 78.55rem;
+    height: 34rem; 
+    background-size: 100%;
+    overflow: hidden;  
+    /* border: 2px solid rgb(0, 255, 0);  */
+}
+.box1::before{
+    content: "";
+    background-image: url('img/bg1.jpeg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 0px;
+    /* margin-right: 50px; */
+    opacity: 0.5;
+    width: 99.7%;
+    height: 91.5%;
+    z-index: -1;
+
+}
+.box{
+    margin-top: -1.%;
+    box-shadow: 100px 100px 100px 100px rgba(0, 0, 0, 0.459);
+    display: flex;
+    width: 100%;
+    height: 4rem;
+
+    /* background-color: rgba(0, 0, 0, 0.568); */
+    background-color: rgba(0, 0, 0, 0.459);
+}
+.left{
+    text-align: center;
+    justify-content: center;
+    margin-left: 10%;
+    /* background-color: aqua; */
+    /* overflow: hidden; */
+}
+.left img{
+    margin-top: -15%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0%;
+    width: 300px;
+    height: 140px;
+}
+.right{
+    margin-top: 17px;
+    margin-left: 48%;
+}
+.right button{
+    font-size: 1rem;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(185, 3, 3);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.right button:hover{
+    background-color: rgb(121, 7, 7);
+}
+.end1{
+    margin-top: 10%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+.inputemail input{
+    background: none;
+    width: 200px;
+    height: 20px;
+    color: black;
+    border: 1px solid white;
+}
+.inputemail button{
+    background-color: red;
+    border: none;
+    width: 100px;
+    height: 25px;
+    color: rgb(248, 239, 239);
+    border-radius: 3px;
+
+}
+.inputemail button:hover{
+    background-color: rgba(255, 0, 0, 0.653);
+    font-size: 14px;
+
+}
+.box2{
+    display: flex;
+    margin-top: 8px;
+    margin-left: -9px;
+    margin-bottom: 5px;
+    width: 78.55rem;
+    height: 34rem; 
+    background-color: black;
+    /* border: 2px solid rgb(3, 247, 56); */
+}
+.box2 .left21{
+    display: flex;
+    /* border: 2px solid red; */
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0rem;
+    margin-left: 25px;
+}
+.box2 .left21 h1{
+    font-size: 3rem;
+    margin-bottom: -1rem;
+}
+.box2 .left21 p{
+    font-size: 1.5rem;
+}
+
+.box2 .right22{
+    display: flex;
+    /* border: 2px solid red; */
+    align-items: center;
+    margin-left: 7%;
+    justify-content: center;
+}
+.box2 .right22 img{
+   
+    margin-right: 25px;
+    margin-top: 15%;
+    height: 28rem;
+    align-items: center;
+    justify-content: center;
+    width: 30rem;
+    /* box-shadow: 2px 2px 25px 2px white; */
+
+}
+.box3{
+    display: flex;
+    /* border: 2px solid greenyellow; */
+    margin-top: 5px;
+    overflow: hidden;
+    margin-left: -9px;
+    width: 78.55rem;
+    height: 34rem; 
+    background-color: black;
+}
+.box3 .box31{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid red; */
+    /* background-color: black; */
+    margin-right: 2.5px;
+}
+.box3 .box31 img{
+    margin-left: 5rem;
+    margin-top: 5rem;
+    width: 25rem;
+    height: 25rem;
+}
+.box3 .box32{
+    margin-left: 2.5px;
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid red; */
+    color: white;
+    text-align: center;
+    justify-content: center;
+} 
+.box32 h1{
+    margin-top: 30%;
+    font-size: 3rem;
+}
+.box32 p{
+    font-size: 1.5rem;
+}
+.box4{
+    margin-top: 7px;
+    width: 78.55rem;
+    height: 36rem;
+    padding-bottom: 3rem;
+    border: 2px solid greenyellow;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box4 h1{
+   
+    font-weight: bold;
+}
+.box4 ul{
+    padding-top: 9px;
+    border: none;
+    
+
+    width: 50rem;
+    height: 5rem;
+    background-color: rgb(81, 74, 74);
+}
+.box4 ul:hover{
+    background-color: rgb(168, 155, 155);
+}
+.box4 input{
+    width: 14rem;
+    height: 1.5rem;
+}
+.box4 button{
+    color: white;
+    font-size: 0.9rem;
+    background-color: red;
+    width: 6rem;
+    height: 2rem;
+    border: none;
+    border-radius: 3px;
+    
+}
+.box4 button:hover{
+    background-color: rgba(255, 0, 0, 0.589);
+    font-size: 0.95rem;
+}
+
+.lastbox{
+    margin-top: -9px;
+    width: 78.55rem;
+    height: 20rem;
+    /* border: 2px solid greenyellow;  */
+    color: white;
+    background-color: black;
+}
+.lastbox h3{
+    margin-left: 300px;
+}
+.box5{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.box5 ul:hover{
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+
+
